@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/freelajobs/public_html/docs/partner 
+    - /bin/cp -R ./ $DEPLOYPATH
